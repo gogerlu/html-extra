@@ -31,7 +31,7 @@
   <div class="section1">
   <body bgcolor="#ffc0cb">
    
-    <a href="Untitled.mp4" onclick="playScaryVideo()">進來</a>
+    <a href="#" onclick="playScaryVideo()">進來</a>
     
     <video id="scaryVideo" class="hidden" width="600" height="700" controls>
         <source src="Untitled.mp4" type="video/mp4">
@@ -97,9 +97,7 @@ alt="娜璉(Nayeon)" width="200"></figure></li>
                                 <img src="https://th.bing.com/th/id/R.ad3fd78a184f3614005ba08508f38267?rik=bdY%2fmn6nSglWMA&pid=ImgRaw&r=0"
                                 alt="子瑜(Tzuyu)" width="200"></figure></li>
 
-                                <li><figure><figcaption>摸摸達(momoda)</figcaption>
-                                    <img src="https://cdn.discordapp.com/attachments/588642088984510466/1208766333261586502/2024-02-18_212537.png?ex=65edb4df&is=65db3fdf&hm=efc23a37de3ea45ea1b11286b6b914c121aeaaa1d69fe1634c0fac3c0d1a3479&"
-                                    alt="摸摸達(momoda)" width="200"></figure></li>
+                               
 
 
             </ol>
@@ -113,9 +111,12 @@ alt="娜璉(Nayeon)" width="200"></figure></li>
       </div>
       <a href="https://www.youtube.com/watch?v=g5lsW-D1UGc" target="_blank">相聲瓦舍-誰呼嚨我</a>
              <figure><figcaption>1887台灣高砂族(上色復原圖)</figcaption>
-            <img src="https://cdn.discordapp.com/attachments/588642088984510466/1212001257363869716/image.png?ex=65f03f21&is=65ddca21&hm=3c615173900047fb15d005d5cc211e628d192607735da56ea56f22ff15ccebe4&"
-            alt="1887台灣高砂族(上色復原圖)" width="500"></figure></section>
-    <hr />
+            <img src="水獺.png"
+            alt="1887台灣高砂族(上色復原圖)" width="500" usemap="#otter"></figure></section>
+            <map name="otter">
+              <area shape="rect" coords="166,77,625,602" href="OTTER PLUS.html">
+              </map>
+            <hr />
     <section>
       <div class="fox">
     <h1><font size="6"><i>【笑話2】</i></font></h1>
@@ -162,27 +163,11 @@ alt="娜璉(Nayeon)" width="200"></figure></li>
           </address><hr><br>
          
 
-          <button onclick="playSound()">Play Sound</button>
-          <button onclick="pauseSound()">Pause Sound</button>
-          <button onclick="adjustVolume(0.1)">Decrease Volume</button>
-          <button onclick="adjustVolume(1)">Increase Volume</button>
-          <audio id="audio" src="tokyo drift.mp3" volume="0.5"></audio>
+        
+       
+          <audio id="audio" src="tokyo drift.mp3"controls ></audio>
       
-          <script>
-              var audio = document.getElementById("audio");
-      
-              function playSound() {
-                  audio.play();
-              }
-      
-              function pauseSound() {
-                  audio.pause();
-              }
-      
-              function adjustVolume(volume) {
-                  audio.volume = volume;
-              }
-          </script>
+          
   
 
           <table border="10">
@@ -196,51 +181,19 @@ alt="娜璉(Nayeon)" width="200"></figure></li>
             </thead>
             <tbody>
             <tr><td><i>極限組</i></td><td style="background-color: greenyellow;">
-              <button onclick="pauseSound1()">Pause Sound</button>
-              <button onclick="playSound1()">Play Sound</button>
-              <audio id="audio1" src="SVJ2.0.mp3" volume="0.3"></audio>
-              <script>
-                var audio1 = document.getElementById("audio1");
-        
-                function playSound1() {
-                    audio1.play();
-                }
-                function pauseSound1() {
-                  audio1.pause();
-              }
-                </script>
+              <audio id="audio1" src="SVJ2.0.mp3"  controls  volume="0.3"></audio>
               <figure><figcaption>SVJ</figcaption>
               <img src="https://www.hdcarwallpapers.com/walls/2020_lamborghini_aventador_svj_roadster_4k_5k_2-HD.jpg"
               alt="SVJ" width="200"></figure></td><td style="background-color: red;">
-              <button onclick="pauseSound2()">Pause Sound</button>
-              <button onclick="playSound2()">Play Sound</button>
-              <audio id="audio2" src="sf90.mp3" volume="0.1"></audio>
-              <script>
-                var audio2 = document.getElementById("audio2");
-        
-                function playSound2() {
-                    audio2.play();
-                }
-                function pauseSound2() {
-                  audio2.pause();
-              }
-                </script>
+              
+              <audio id="audio2" src="sf90.mp3" controls volume="0.1"></audio>
+             
                 <figure><figcaption>SF90</figcaption>
                 <img src="https://media.autoexpress.co.uk/image/private/s--xLU6xl8a--/t_content-image-full-desktop@2/v1594991800/autoexpress/2020/07/Ferrari%20SF90-8.jpg"
                 alt="SF90" width="200"></figure></td><td style="background-color: blue;">
-                  <button onclick="pauseSound3()">Pause Sound</button>
-              <button onclick="playSound3()">Play Sound</button>
-              <audio id="audio3" src="gt.mp3" volume="0.1"></audio>
-              <script>
-                var audio3 = document.getElementById("audio3");
-        
-                function playSound3() {
-                    audio3.play();
-                }
-                function pauseSound3() {
-                  audio3.pause();
-              }
-                </script>
+                  
+              <audio id="audio3" src="gt.mp3" controls volume="0.1"></audio>
+             
                   <figure><figcaption>FORD-GT</figcaption>
                   <img src="https://images.hgmsites.net/hug/ford-gt_100496709_h.jpg"
                   alt="FORD -GT" width="200"></figure></td></tr>
@@ -267,8 +220,8 @@ alt="娜璉(Nayeon)" width="200"></figure></li>
             <br>
             <h1>統神端火鍋</h1>
             <video src="tonshen.mp4" controls width="400">統神端火鍋</video>
-            <h1><font face="Gabriola">bling bang bang</h1>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/61VJMxh-cM8?si=GghC-VLkCrDdkiTz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h1><font face="Gabriola">RICK</h1>
+              <iframe width="640" height="360" src="https://www.youtube.com/embed/PuNcS7JtyP8" title="Toothless eats Rick Astley" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               <br>
               <br>
               <figure><figcaption>兔瓦斯</figcaption>
@@ -285,6 +238,13 @@ alt="娜璉(Nayeon)" width="200"></figure></li>
                     <img src="https://media1.tenor.com/m/yb2HmSFfmegAAAAC/chika-kaguya-sama-love-is-war.gif"
    width="200">
 </figure>
+
+          
+         
+
+
+
+
                 <input type="text" placeholder="請輸入帳號"/>
                 <br>
                 <br>
